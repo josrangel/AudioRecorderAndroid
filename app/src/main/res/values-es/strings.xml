@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grabador de Audio</string>
+    <string name="record_audio">Grabar audio</string>
+    <string name="play_audio">Reproducir ultimo audio</string>
+    <string name="without_record">No existe audio</string>
+</resources>

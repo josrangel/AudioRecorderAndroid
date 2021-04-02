@@ -8,8 +8,26 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnRecord"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="@string/record_audio"
+        style="@style/buttonStyle"
+        android:onClick="recorder"
         />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_audio"
+        style="@style/buttonStyle"
+        android:onClick="play"
+        />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textViewStyle"/>
 </LinearLayout>
